@@ -1,0 +1,5 @@
+# This is how I get started...
+set disassemble-next-line on
+b getUserLine
+# You may want to break other places, like the return from getUserLine
+run <solution.txt
